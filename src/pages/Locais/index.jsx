@@ -30,6 +30,8 @@ const useStyles = makeStyles( (theme) => ({
 
   card: {
     display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
     borderRadius: "8px",
     backgroundColor: theme.palette.aquaTwo,
   }
@@ -55,7 +57,7 @@ export default function Locais({sideBar, setSideBar}) {
 
       <Box mt="35px" mb="25px" className={classes.card} >
 
-        <Box sx={{padding: "5px", minWidth: "174px", display: "flex", justifyContent: "center", alignItems: "flex-start", flexDirection: "column", gap: "5px", borderRight: "1px solid black"}} >
+        <Box sx={{padding: "5px", width: "174px", display: "flex", justifyContent: "center", alignItems: "flex-start", flexDirection: "column", gap: "5px", borderRight: "1px solid black"}} >
           <Typography variant="h3" color="blueTwo" >Vir até nós:</Typography>
 
           <Typography variant="subtitle2" color="blueTwo" > Av. Roque Petroni Júnior, 1089 - Loja 19 S - Jardim das Acacias</Typography>
@@ -77,7 +79,7 @@ export default function Locais({sideBar, setSideBar}) {
 
       <Box mb="25px" className={classes.card} >
 
-        <Box sx={{padding: "5px", minWidth: "174px", display: "flex", justifyContent: "center", alignItems: "flex-start", flexDirection: "column", gap: "5px", borderRight: "1px solid black"}} >
+        <Box sx={{padding: "5px", width: "174px", display: "flex", justifyContent: "center", alignItems: "flex-start", flexDirection: "column", gap: "5px", borderRight: "1px solid black"}} >
           <Typography variant="h3" color="blueTwo" >Vir até nós:</Typography>
 
           <Typography variant="subtitle2" color="blueTwo" > Rua Sabiá Que Sabia Assobiar, 66 - Campo dos Pássaros</Typography>
@@ -99,7 +101,7 @@ export default function Locais({sideBar, setSideBar}) {
 
       <Box mb="25px" className={classes.card} >
 
-        <Box sx={{padding: "5px", minWidth: "174px", display: "flex", justifyContent: "center", alignItems: "flex-start", flexDirection: "column", gap: "5px", borderRight: "1px solid black"}} >
+        <Box sx={{padding: "5px", width: "174px", display: "flex", justifyContent: "center", alignItems: "flex-start", flexDirection: "column", gap: "5px", borderRight: "1px solid black"}} >
           <Typography variant="h3" color="blueTwo" >Vir até nós:</Typography>
 
           <Typography variant="subtitle2" color="blueTwo" > Equipe vencedora, 15 - Hackathon</Typography>

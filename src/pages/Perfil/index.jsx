@@ -191,7 +191,7 @@ export default function Perfil({sideBar, setSideBar}) {
 
             <Typography variant="h5" color="blueTwo" >Você possui</Typography>
 
-            <Typography variant="subtitle1" color="blueTwo" >200</Typography>
+            <Typography variant="subtitle1" color="blueTwo" >400</Typography>
 
             <Typography variant="subtitle1" color="blueTwo" >Pontos</Typography>
 
